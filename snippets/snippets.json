@@ -1,0 +1,289 @@
+{
+    "Willow Banner": {
+        "prefix": "willow banner",
+        "body": [
+            "<section class=\"willow-banner\" role=\"region\">",
+            "   <h1 class=\"willow-banner__heading\"></h1>",
+            "   <div class=\"willow-banner__content\">",
+            "   </div>",
+            "</section>"
+        ],
+        "description": "Insert Willow Banner"
+    },
+
+    "Willow Breadcrumbs": {
+		"prefix": "willow breadcrumbs",
+		"body": [
+			"<nav class=\"willow-breadcrumbs\" role=\"navigation\">",
+			"	<h1 class=\"willow-breadcrumbs__heading\" role=\"presentation\">You are here:</h1>",
+			"	<ol>",
+			"		<li class=\"willow-breadcrumbs__item\"><a class=\"willow-breadcrumbs__link\" href=\"\"></a></li>",
+			"		<li class=\"willow-breadcrumbs__item\"><a class=\"willow-breadcrumbs__link\" href=\"\"></a></li>",
+			"		<li class=\"willow-breadcrumbs__item\"><a class=\"willow-breadcrumbs__link\" href=\"\"></a></li>",
+			"		<li class=\"willow-breadcrumbs__item--active\">$7</li>",
+			"	</ol>",
+			"</nav>"
+		],
+		"description": "Insert Willow Breadcrumbs"
+	},
+
+    "Willow Footer Nav": {
+        "prefix": "willow footer nav",
+        "body": [
+            "<nav class=\"willow-footer-nav\" role=\"navigation\" aria-label=\"Footer Navigation\">",
+            "   <h1 class=\"willow-footer-nav__heading\">Footer Navigation</h1>",
+            "   <ul class=\"willow-footer-nav__list\">",
+            "       <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"\" aria-label=\"\"></a></li>",
+            "       <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"\" aria-label=\"\"></a></li>",
+            "       <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"\" aria-label=\"\"></a></li>",
+            "   </ul>",
+            "</nav>"
+        ],
+        "description": "Insert Willow Footer Navigation"
+    },
+
+    "Willow Layout": {
+		"prefix":"willow layout",
+		"body": [
+			"<div class=\"willow-layout\">",
+			"   <div class=\"willow-layout__row\">",
+            "       <div class=\"willow-layout__column--$1\">",
+            "           $2",
+            "       </div>",
+            "   </div>",
+            "   $3",
+            "</div>"
+		],
+		"description": "Insert Willow Layout"	
+	},
+
+    "Willow Layout Column": {
+        "prefix": "willow layout column",
+        "body": [
+            "<div class=\"willow-layout__column--$1\">",
+            "   $2",
+            "</div>"
+        ],
+        "description": "Insert a Willow Layout Column"
+    },
+
+
+    "Willow Layout Row": {
+        "prefix": "willow layout row",
+        "body": [
+            "<div class=\"willow-layout__row\">",
+            "   <div class=\"willow-layout__column--$1\">",
+            "       $2",
+            "   </div>",
+            "</div>"
+        ],
+        "description": "Insert a Willow Layout Row"
+    },
+    
+    "Willow Logo Link": {
+		"prefix":"willow logo link",
+		"body": [
+			"<a class=\"willow-logo-link\" href=\"/\" aria-label=\"go to home page\">",
+			"	<img class=\"willow-logo-link__image\" src=\"$1\" alt=\"$2\" />",
+			"</a>"
+		],
+		"description": "Insert Willow Logo Link"	
+	},
+
+    "Willow Page Content": {
+		"prefix":"willow page content",
+		"body": [
+			"<main class=\"willow-page-content\" role=\"main\"></main>"
+		],
+		"description": "Insert Willow Page Content"	
+	},
+
+    "Willow Page Footer": {
+		"prefix":"willow page footer",
+		"body": [
+			"<footer class=\"willow-page-footer\" role=\"contentinfo\">",
+			"   <div class=\"willow-page-footer__branding\">",
+            "   </div>",
+            "   <div class=\"willow-page-footer__navigation\">",
+            "   </div>",
+            "   <small class=\"willow-page-footer__copyright\"></small>",
+            "</footer>"
+		],
+		"description": "Insert Willow Page Footer"	
+	},
+
+	"Willow Page Header": {
+		"prefix":"willow page header",
+		"body": [
+			"<header class=\"willow-page-header\" role=\"banner\">",
+			"	<div class=\"willow-page-header__branding\">",
+			"		$1",
+			"	</div>",
+			"	<div class=\"willow-page-header__content-controls\">",
+			"		<a class=\"willow-page-header__content-open\" href=\"#\">Menu</a>",
+			"		<a class=\"willow-page-header__content-close\" href=\"#\">Close</a>",
+			"	</div>",
+			"	<div class=\"willow-page-header__content\">",
+			"		<div class=\"willow-page-header__navigation\">",
+			"			$2",
+			"		</div>",
+			"	</div>",
+			"</header>"
+		],
+		"description": "Insert Willow Page Header"	
+	},
+
+	"Willow Primary Nav": {
+		"prefix":"willow primary nav",
+		"body": [
+			"<nav class=\"willow-primary-nav\" role=\"navigation\" aria-label=\"Primary Navigation\">",
+			"	<h1 class=\"willow-primary-nav__heading\">Primary Navigation</h1>",
+			"	<ul class=\"willow-primary-nav__list\">",
+			"		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"\"></a></li>",
+			"		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"\"></a></li>",
+			"		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"\"></a></li>",
+			"	</ul>",
+			"</nav>"
+		],
+		"description": "Insert Willow Primary Navigation"	
+	},
+
+    "Willow Secondary Nav": {
+		"prefix":"willow secondary nav",
+		"body": [
+			"<nav class=\"willow-secondary-nav\" role=\"navigation\" aria-label=\"Secondary Navigation\">",
+            "   <h1 class=\"willow-secondary-nav__heading\">Secondary Navigation</h1>",
+			"   <ul class=\"willow-secondary-nav__list\">",
+            "       <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"\"></a></li>",
+            "       <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"\"></a></li>",
+            "       <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"\"></a></li>",
+            "   </ul>",
+            "</nav>"
+		],
+		"description": "Insert Willow Secondary Nav"	
+	},
+
+    "Willow Skip Nav": {
+		"prefix":"willow skip nav",
+		"body": [
+			"<div class=\"willow-skip-nav\">",
+			"	<a class=\"willow-skip-nav__link\" href=\"$1\" aria-label=\"skip to main content\">Skip to Content</a>",
+			"</div>"
+		],
+		"description": "Insert Willow Skip Nav"	
+	},
+
+    "Willow Styling Context": {
+		"prefix":"willow styling context",
+		"body": [
+			"<div class=\"willow-styling-context\"></div>"
+		],
+		"description": ""	
+	},
+
+
+	"Willow Summary Component": {
+		"prefix": "willow summary",
+		"body": [
+			"<section class=\"willow-summary\" role=\"region\">",
+			"	<h1 class=\"willow-summary__heading\">$1</h1>",
+			"	<div class=\"willow-summary__content\">",
+			"		$2",
+			"	</div>",
+			"	<div class=\"willow-summary__actions\">",
+			"		$3",
+			"	</div>",
+			"</section>"
+		],
+
+		"description": "Insert Willow Summary Component"
+	},
+
+    "Willow Sample Page": {
+        "prefix": "willow sample page",
+        "body":[
+         "<div class=\"willow-layout\">",
+        "   <div class=\"willow-layout__row\">",
+        "       <div class=\"willow-layout__column--12\">",
+        "           <header class=\"willow-page-header\" role=\"banner\">",
+        "	            <div class=\"willow-page-header__branding\">",
+        "                   <a class=\"willow-logo-link\" href=\"/\" aria-label=\"go to home page\">",
+        "	                    <img class=\"willow-logo-link__image\" src=\"$1\" alt=\"$2\" />",
+        "                   </a>",
+        "	            </div>",
+        "	            <div class=\"willow-page-header__content-controls\">",
+        "	            	<a class=\"willow-page-header__content-open\" href=\"#\">Menu</a>",
+        "	            	<a class=\"willow-page-header__content-close\" href=\"#\">Close</a>",
+        "	            </div>",
+        "	            <div class=\"willow-page-header__content\">",
+        "	            	<div class=\"willow-page-header__navigation\">",
+        "                       <nav class=\"willow-primary-nav\" role=\"navigation\" aria-label=\"Primary Navigation\">",
+        "                       	<h1 class=\"willow-primary-nav__heading\">Primary Navigation</h1>",
+        "                       	<ul class=\"willow-primary-nav__list\">",
+        "                       		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"$3\">$4</a></li>",
+        "                       		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"$5\">$6</a></li>",
+        "                       		<li class=\"willow-primary-nav__item\"><a class=\"willow-primary-nav__link\" href=\"$7\">$8</a></li>",
+        "                       	</ul>",
+        "                       </nav>",
+        "	            	</div>",
+        "	            </div>",
+        "           </header>",
+        "       </div>",
+        "   </div>",
+        "   <div class=\"willow-layout__row\">",
+        "       <div class=\"willow-layout__column--12\">",
+        "           <section class=\"willow-banner\" role=\"region\">",
+        "              <h1 class=\"willow-banner__heading\">$9</h1>",
+        "              <div class=\"willow-banner__content\">",
+        "                   <div class=\"willow-styling-context\">",
+        "                       $10",
+        "                   </div>",
+        "              </div>",
+        "           </section>",
+        "       </div>",
+        "   </div>",
+        "   <div class=\"willow-layout__row\">",
+        "       <div class=\"willow-layout__column--3\">",
+        "           <nav class=\"willow-secondary-nav\" role=\"navigation\" aria-label=\"Secondary Navigation\">",
+        "              <h1 class=\"willow-secondary-nav__heading\">Secondary Navigation</h1>",
+        "              <ul class=\"willow-secondary-nav__list\">",
+        "                  <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"$11\">$12</a></li>",
+        "                  <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"$13\">$14</a></li>",
+        "                  <li class=\"willow-secondary-nav__item\"><a class=\"willow-secondary-nav__link\" href=\"$15\">$16</a></li>",
+        "              </ul>",
+        "           </nav>",
+        "       </div>",
+        "       <div class=\"willow-layout__column--9\">",
+        "           <main class=\"willow-page-content\" role=\"main\">",
+        "               <div class=\"willow-styling-context\">",
+        "                   $17",
+        "               </div>",
+        "           </main>",
+        "       </div>",
+        "   </div>",
+        "   <div class=\"willow-layout__row\">",
+        "       <div class=\"willow-layout__column--12\">",
+        "           <footer class=\"willow-page-footer\" role=\"contentinfo\">",
+        "              <div class=\"willow-page-footer__branding\">",
+        "                   <a class=\"willow-logo-link\" href=\"/\" aria-label=\"go to home page\">",
+        "	                    <img class=\"willow-logo-link__image\" src=\"$18\" alt=\"$19\" />",
+        "                   </a>",
+        "              </div>",
+        "              <div class=\"willow-page-footer__navigation\">",
+        "                   <nav class=\"willow-footer-nav\" role=\"navigation\" aria-label=\"Footer Navigation\">",
+        "                      <h1 class=\"willow-footer-nav__heading\">Footer Navigation</h1>",
+        "                      <ul class=\"willow-footer-nav__list\">",
+        "                          <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"$20\" aria-label=\"\">$21</a></li>",
+        "                          <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"$22\" aria-label=\"\">$23</a></li>",
+        "                          <li class=\"willow-footer-nav__item\"><a class=\"willow-footer-nav__link\" href=\"$24\" aria-label=\"\">$25</a></li>",
+        "                      </ul>",
+        "                   </nav>",
+        "              </div>",
+        "              <small class=\"willow-page-footer__copyright\">$26</small>",
+        "           </footer>",
+        "       </div>",
+        "   </div>",
+        "</div>" 
+        ]
+    }
+}

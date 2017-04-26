@@ -1,0 +1,21 @@
+{
+    "name": "willow-snippets",
+    "displayName": "Willow Snippets",
+    "description": "HTML snippets for Willow UI Components",
+    "version": "0.0.3",
+    "publisher": "sarakennedy",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
